@@ -1,0 +1,14 @@
+git config --list                                             -> mostra as configuraçoes do git
+git config global user.name                                   -> configura o nome do usuario
+git config global user.email                                  -> configura o email do usuario
+git init                                                      -> mostra ao git para começar a verificar a pasta/inicia o repositorio git
+git status                                                    -> mostra quantos commits e branch feito
+git add<nomeDoarquivo>                                        -> manda o git ficar verificando o arquivo
+git add .                                                     -> estuda todos os arquivos
+git commit -m "primeiro commit"                               -> salva(commita) o novo estado ou mudanças do arquivo
+git log                                                       -> mostra o historico de commits
+git checkout <id>                                             -> mostra o arquivo como estava no commit indicado, antes use git log para ver todos os commits
+git chekout master                                            -> volta para a ultima versao do arquivo
+git clone <url>                                               -> baixo no seu computador um repositorio do github
+git remote add oring <url do repositorio ja criado no github> -> adiciona o repositorio criado no github em seu computador para poder mandar arquivos posteriormente
+git push origin master                                        -> manda os arquivos para o github no repositorio copiado com o comando anterior
