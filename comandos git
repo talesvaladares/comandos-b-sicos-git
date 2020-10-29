@@ -12,3 +12,4 @@ git chekout master                                            -> volta para a ul
 git clone <url>                                               -> baixo no seu computador um repositorio do github
 git remote add oring <url do repositorio ja criado no github> -> adiciona o repositorio criado no github em seu computador para poder mandar arquivos posteriormente
 git push origin master                                        -> manda os arquivos para o github no repositorio copiado com o comando anterior
+git rm --cached <nomeDoArquivo>                               -> limpa o cache do repositorio indicado
