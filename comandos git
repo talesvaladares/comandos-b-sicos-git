@@ -6,10 +6,10 @@ git status                                                    -> mostra quantos 
 git add<nomeDoarquivo>                                        -> manda o git ficar verificando o arquivo
 git add .                                                     -> estuda todos os arquivos
 git commit -m "primeiro commit"                               -> salva(commita) o novo estado ou mudanças do arquivo
-git log                                                       -> mostra o historico de commits
+git log                                                       -> mostra o historico de commits, modificações e versões do projeto
 git checkout <id>                                             -> mostra o arquivo como estava no commit indicado, antes use git log para ver todos os commits
 git chekout master                                            -> volta para a ultima versao do arquivo
 git clone <url>                                               -> baixo no seu computador um repositorio do github
 git remote add oring <url do repositorio ja criado no github> -> adiciona o repositorio criado no github em seu computador para poder mandar arquivos posteriormente
 git push origin master                                        -> manda os arquivos para o github no repositorio copiado com o comando anterior
-git rm --cached <nomeDoArquivo>                               -> limpa o cache do repositorio indicado
+git rm --cached <nomeDoArquivo>                               -> tira o arquivo do storage do git para nao ser commitado
